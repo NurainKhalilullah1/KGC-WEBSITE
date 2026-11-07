@@ -1,6 +1,5 @@
 {
   "name": "Temitope Nurain — Design, Engineering, Motion & AI Portfolio",
   "description": "Personal portfolio of a Product Designer, Frontend Developer, Motion Graphic Designer, and AI Enthusiast.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "requestFramePermissions": []
 }

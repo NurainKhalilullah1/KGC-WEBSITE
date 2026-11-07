@@ -259,6 +259,7 @@ export default function PortfolioClient() {
                   alt="Minimalist architectural and product design studio workspace"
                   fill
                   priority
+                  sizes="(max-width: 1024px) 100vw, 45vw"
                   referrerPolicy="no-referrer"
                   className="object-cover"
                 />
@@ -364,6 +365,7 @@ export default function PortfolioClient() {
                       src={project.image}
                       alt={project.title}
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       referrerPolicy="no-referrer"
                       className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     />
@@ -892,6 +894,7 @@ export default function PortfolioClient() {
                         src={activeProject.image}
                         alt={activeProject.title}
                         fill
+                        sizes="(max-width: 896px) 100vw, 896px"
                         referrerPolicy="no-referrer"
                         className="object-cover"
                       />

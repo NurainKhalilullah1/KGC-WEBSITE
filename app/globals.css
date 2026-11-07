@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Plus+Jakarta+Sans:wght@400..700&display=swap');
 @import "tailwindcss";
 
 @layer base {
   body {
-    font-family: 'Google Sans', var(--font-google-sans-fallback), sans-serif;
+    font-family: 'Google Sans', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   h1, h2, h3, .font-serif-display {
-    font-family: var(--font-fraunces), Georgia, serif;
+    font-family: 'Fraunces', Georgia, serif;
   }
 }
 
