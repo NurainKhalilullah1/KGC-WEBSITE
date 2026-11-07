@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Google Sans', var(--font-google-sans-fallback), sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: var(--font-fraunces), Georgia, serif;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
